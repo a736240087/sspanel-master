@@ -3,7 +3,7 @@
 
 #### 1.连接 SSH 安装宝塔面板
 
-#### 2.宝塔面板安装环境, 推荐使用 PHP 7.2、MySQL 5.6、Nginx 1.16
+#### 2.宝塔面板安装环境, 推荐使用 PHP 7.2、MySQL 5.6+、Nginx 1.16+
 
 #### 3.宝塔面板创建网站, 域名等信息自行填写
 
@@ -60,10 +60,6 @@ chown -R www:www 你的文件夹名/
 
 首次迁移: 导入网站目录下的`sql/glzjin_all.sql` 文件
 
-将数据库user表里的全部用户的theme列改为metron，使用phpmyadmin执行这条sql语句:
-```sql
-UPDATE user SET theme='metron'
-```
 
 ### 使用宝塔面板的计划任务配置
 ```
