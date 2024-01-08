@@ -1,6 +1,5 @@
-## SSPanel-Metron主题，目前由@BobS9维护开发中。
+## SSPanel-Metron主题，目前由@cvkkj维护开发中。
 
-交流群：[https://t.me/BobShareGroup](https://t.me/BobShareGroup)
 
 #### 1.连接 SSH 安装宝塔面板
 
@@ -179,4 +178,3 @@ syncnas
 执行周期：每月 1 日 0 小时 0 分钟
 脚本内容：php /www/wwwroot/你的网站目录/xcat FinanceMail month
 ```
-"# sspanel-master" 
